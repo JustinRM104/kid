@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  font-family: arial;
+}
+
+.wrapper {
+  margin: 0 auto;
+  width: 90%;
+  text-align: center;
+}
+
+.startingLogo {
+  margin-top: 20vh;
+  margin-bottom: 5vh;
+  margin-left: 5vw;
+  width: 80%;
+}
+
+.mainButton {
+  margin-bottom: 1em;
+  display: inline-block;
+  width: 50%;
+  padding: 1em;
+  text-align: center;
+  border-radius: 2em;
+  border: .1em solid #00975f;
+  box-shadow: .1em .1em 1em grey;
+  font-weight: bolder;
+  text-decoration: none;
+  color: white;
+  background: #84ffd0;
+  outline: none;
+}
+
+.wave-top {
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 50vh;
+  width: 100%;
+  z-index: -1
+}
+
+.wave-bottom {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  height: 50vh;
+  width: 100%;
+  z-index: -1;
+}
+
+.title {
+  margin-top: 20vh;
+  color: #00975f;
+}
+
+.box {
+  margin: 0 auto;
+  width: 75%;
+  margin-bottom: 1em;
+}
+
+.box p {
+  text-align: left;
+  padding-left: 1em;
+  width: 100%;
+}
+
+.or {
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  width: 100%;
+  color: #00975f;
+}
+
+.box input {
+  margin-top: -1em;
+  width: 100%;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  text-align: center;
+  border-radius: 2em;
+  border: .1em solid #00975f;
+  box-shadow: .1em .1em 1em grey;
+  font-weight: bolder;
+  text-decoration: none;
+  color: black;
+  background: white;
+  outline: none;
+}
